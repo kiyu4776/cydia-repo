@@ -1,0 +1,17 @@
+Origin: ＠kiyu4776 repo
+Label: ＠kiyu4776 repo
+Suite: stable
+Version: 1.0
+Codename: Domain
+Architectures: iphoneos-arm64
+Components: main
+Description: オハイオ州では一般的
+MD5Sum:
+ eb27180e636c92698ac9f856cdee0f7f 10025 Packages
+ b329770f2e221ffaffb14a7ac83212c5 3197 Packages.gz
+SHA1:
+ 14b6a85539c641db42d5a175b4a0e12fe890c436 10025 Packages
+ c4f8c054a365320377a294e52a50d3653b4688eb 3197 Packages.gz
+SHA256:
+ 5405a6ea2c0759e673c4dc34bb6f7a177f85a2089789c1a564e5de1063b3e9b4 10025 Packages
+ 7089f86467b2e9eb92569930e533b1dd70846c5b32a125393c4df6edfaa99e10 3197 Packages.gz

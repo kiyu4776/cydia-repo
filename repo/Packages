@@ -1,0 +1,274 @@
+Package: com.main.kiyu4776.hidedock.mt
+Name: HideDockMT
+Version: 0.3
+Architecture: iphoneos-arm64
+Description: Dockの背景を非表示にします
+Maintainer: kiyu4776
+Author: kiyu4776
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/hidedock.mt.deb
+Size: 2626
+MD5sum: cdb1f7d56622d8a620fa3c2ebd3f735e
+SHA1: 5626aa43d67d4d5fb76e829e8da070eac1510c9f
+SHA256: 4c27bbd4522f74f9ba320fa537f63b85f8614472cb6472933a64f596d9e8aa13
+
+Package: org.kostyshyn.dkflexloader
+Name: DKFlexLoader
+Version: 2.7.0
+Architecture: iphoneos-arm64
+Description: rootless版 Flipboard FLEX dylib loader
+Maintainer: Danylo Kostyshyn
+Author: Danylo Kostyshyn
+Section: development
+Depends: mobilesubstrate, preferenceloader (>= 2.2), com.pantsthief.flexing
+Filename: ./debs/org.kostyshyn.dkflexloader_arm64.deb
+Size: 6420
+MD5sum: 1bfbeaf4f70ade6a46f450f0024d5017
+SHA1: cea200e7f4c877c1ee07ecb7d65ce5a20b796884
+SHA256: ad617b6e8a67c1bd676b777ecf352d465984b82b397e1c62c81503e49fc715f9
+
+Package: com.main.kiyu4776.statusbar
+Name: ステータスバーおちんちん
+Version: 0.0.4
+Architecture: iphoneos-arm64
+Description: ステータスバーをおちんちんに置き換えします
+Maintainer: @kiyu4776
+Author: @kiyu4776
+Section: おすすめしない
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.main.kiyu4776.statusbar_0.0.4_arm64.deb
+Size: 5326
+MD5sum: 2e1e57e5b15ce94691d696f45567a5e9
+SHA1: 8e7fc039d48a12dfe90687fec57c29d90d9b7b3d
+SHA256: 300a32af4401f1425592bedcd3003e9bd1b87c634561416fe68058ae30547422
+
+Package: com.main.kiyu4776.searchbox
+Name: HideSearchBox
+Version: 0.1
+Architecture: iphoneos-arm64
+Description: クソみたいなホーム画面の検索のやつを非表示にする
+Maintainer: @kiyu4776
+Author: @kiyu4776
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.main.kiyu4776.searchbox_0.1_iphoneos-arm64.deb
+Size: 2792
+MD5sum: c145b0600ac1a392adeb3c3e8d85b126
+SHA1: 3a31ab60355b7cb599cc864a77795ef887f868e5
+SHA256: 233595eb766b3f15589da3ca8e21c43c70f5300ebc03ce7ef8b7b9518f54ba8e
+
+Package: com.main.kiyu4776.hide.iconnotify
+Name: ホーム画面の赤いやつ消す
+Version: 0.1
+Architecture: iphoneos-arm64
+Description: ホーム画面のアプリアイコンの赤い通知バッジwokesuる
+Maintainer: @kiyu4776
+Author: @kiyu4776
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.main.kiyu4776.hide.iconnotify_0.1_arm64.deb
+Size: 2314
+MD5sum: cf583949863aa0628e601cc5cab6a8db
+SHA1: 0cb18472e523fb7194db42159b9c91a4b5abf1ed
+SHA256: a9fb1aabae5de2a8cb5a808c03a046b2aea0d8f46a26143c50d19cdd81fe80b5
+
+Package: com.main.kiyu4776.hide.homebar
+Name: 下の白いバーを非表示にする
+Version: 0.0.1-1
+Architecture: iphoneos-arm64
+Description: 下の白いバーを非表示にする
+Maintainer: @kiyu4776
+Author: @kiyu4776
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.main.kiyu4776.hide.homebar_0.0.1_arm64.deb
+Size: 2710
+MD5sum: f4276adfd5f06b9c0cacffdcd2f218d9
+SHA1: 4b3e20b37ac366af613194b47c1ac4937d8449f9
+SHA256: 2b46488203fbb2a896ecc5d35ae6bb77b1e1893fff07b77e792066590caf1b35
+
+Package: org.kostyshyn.dkflexloader
+Name: DKFLEXLoader
+Version: 2.7.0-6
+Architecture: iphoneos-arm
+Description: https://github.com/danylokos/DKFLEXLoader の 32bit版
+Maintainer: Danylo Kostyshyn
+Author: Danylo Kostyshyn
+Section: Tweaks
+Depends: firmware (>= 7), mobilesubstrate, preferenceloader (>= 2.2)
+Filename: ./debs/armv7/org.kostyshyn.dkflexloader_2.7.0_arm.deb
+Size: 6072
+MD5sum: 3ba52fc740ba5dea19df9eb7ee68dc85
+SHA1: ed94cef033dd3eeef0a5b0d64744f9251ea1495a
+SHA256: 61897538c1a5f7df0329b380463eaadf69f28e49e8a530a7e723c0297cf3196f
+
+Package: com.main.kiyu4776.ip5.ota841
+Name: iP5OTA8.4.1
+Description: iPhone5のバージョンを偽装して8.4.1にアップデートさせる
+Maintainer: kiyu4776
+Author: kiyu4776
+Section: Utilities
+Architecture: iphoneos-arm
+Version: 0.0.1
+Filename: ./debs/armv7/com.main.kiyu4776.ip5.ota841_0.0.1_arm.deb
+Size: 9746
+MD5sum: 2c8b997583f118711875bdb65dacd0a3
+SHA1: 3c288d31068dd0ea8cb606dcadf69136d93cb946
+SHA256: 279eff4bfe25f5de123085db109aeaf24bf86debd1ac79efba6739d1f27cf236
+
+Package: com.main.kiyu4776.ui.statusbar
+Name: UIStetusBar
+Description: 時間のところに色々追加する
+Maintainer: kiyu4776
+Author: kiyu4776
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Filename: ./debs/com.main.kiyu4776.ui.statusbar_0.0.1-arm64.deb
+Icon: https://cydia-repo-kiyu4776.leapcell.app/resource/asset/tweak/UIStetusBar_icon.png
+Size: 68624
+MD5sum: 0755dc8f5a4d05ecba5ca4bec948f7b9
+SHA1: e56fe2eb778f6e227b0fc9dadaf0171fcb2bcbb
+SHA256: 2c2f31467ab52f0271aac100c43893e85d7755b965a574f29576c84d37453654
+
+Package: com.main.kiyu4776.backdrop.hide
+Name: BackdropHide 
+Description: アプリ履歴の背景と開閉アニメーションの背景ブラーを消す
+Maintainer: kiyu4776
+Author: kiyu4776
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Filename: ./debs/com.main.kiyu4776.backdrop.hide_0.0.2_arm64.deb
+Size: 2598
+MD5sum: cea0e0a5d9290dd94271f912cb2c78b0
+SHA1: 51462b78055037c44edde2b976c4a0687953e7db
+SHA256: 9cfe9d03d8c0c525efb31f2d19f1c4b593663ae2544a5b46237ff82a448a4685
+
+Package: com.main.kiyu4776.ui.statusbar
+Name: UIStetusBar
+Description: 時間のところに色々追加する
+Maintainer: kiyu4776
+Author: kiyu4776
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3), ws.hbang.common (>= 2.0)
+Icon: https://cydia-repo-kiyu4776.leapcell.app/resource/asset/tweak/UIStetusBar_icon.png
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Filename: ./debs/com.main.kiyu4776.ui.statusbar_0.0.2_arm64.deb
+Size: 219012
+MD5sum: 1340b6f076f21a6cb568e9e936f38a70
+SHA1: b63ed25955cef99cc0a3869bad73049df2c4c523
+SHA256: 4f3ee47a3d7dd97f68e4928a4402d990dc9dc52fdb904a4424d0395e65389b74
+
+Package: com.main.kiyu4776.ui.statusbar
+Name: UIStetusBar
+Description: 時間のところに色々追加する
+Maintainer: kiyu4776
+Author: kiyu4776
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3), ws.hbang.common (>= 2.0)
+Icon: https://cydia-repo-kiyu4776.leapcell.app/resource/asset/tweak/UIStetusBar_icon.png
+Architecture: iphoneos-arm64
+Version: 0.0.5
+Filename: ./debs/com.main.kiyu4776.ui.statusbar_0.0.5_iphoneos-arm64.deb
+Size: 224644
+MD5sum: 07d48e5cc2af7bec452370825ac7db47
+SHA1: 7e5de0d33610bc27361c560a34991d59552b3bca
+SHA256: 77f3e26e118173a3d95a26cf8d8e733f4ed1fecf9a26b0f2bfef11b63bb7fd2a
+
+Package: com.main.kiyu4776.searchbox
+Name: HideSearchBox
+Version: 0.2
+Architecture: iphoneos-arm64
+Description: クソみたいなホーム画面の検索のやつを非表示にする
+Maintainer: @kiyu4776
+Author: @kiyu4776
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.main.kiyu4776.searchbox_0.2_iphoneos-arm64.deb
+Size: 2634
+MD5sum: 02ea20f7a9ae2b4371bf4febc14f979e
+SHA1: 086e919d5a19d3d63a481180c9dd42fd08dd328c
+SHA256: 8e9a688e40cfd72b2f34f8d70267a5e71e9eb9875b325371c7674f59ba67fd4b
+
+Package: com.main.kiyu4776.passcode.backgroundhide
+Name: PasscodeBackgroundHide
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Description: パスコード画面の数字の背景を消す
+Maintainer: @kiyu4776
+Author: @kiyu4776
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.main.kiyu4776.passcode.backgroundhide_0.0.2_iphoneos-arm64.deb
+Size: 2612
+MD5sum: 8988a2319991404428c83789ec3c1872
+SHA1: 788d688a0dcbdecf306b72f78daf80363711769a
+SHA256: 39d472ea62658cce2c1879d654efac1483d74703269d1b16f6eab190feece552
+
+Package: com.main.robotomono.font
+Name: RobotoMonoJP
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Description: https://github.com/mjun0812/RobotoMonoJP　のふぉんとを自動で入れるやつ
+Maintainer: @kiyu4776
+Author: @kiyu4776
+Section: Font
+Depends: com.rpgfarm.a-font
+Filename: ./debs/Font/com.main.robotomono.font_0.0.1-1_arm64.deb
+Size: 2531438
+MD5sum: f8d9c69d45ed068061e18b53627c8f00
+SHA1: ffb4ba438a3caf4520f4e3a7eabd341e6baca07f
+SHA256: 6f64f5ebf56cce30f34cba128c0cf8b959ef878ac1830fa51704a5ce150ffc5d
+
+Package: com.main.kiyu4776.ui.statusbar
+Name: UIStetusBar
+Description: 時間のところに色々追加する
+Maintainer: kiyu4776
+Author: kiyu4776
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3), ws.hbang.common (>= 2.0)
+Icon: https://cydia-repo-kiyu4776.leapcell.app/resource/asset/tweak/UIStetusBar_icon.png
+Architecture: iphoneos-arm64
+Version: 0.0.0.0
+Filename: ./debs/UIStetusBar/com.main.kiyu4776.ui.statusbar_0.0.6_iphoneos-arm64.deb
+Size: 45048
+MD5sum: d5c76db0840e3e7f33c5f83e9f0784fa
+SHA1: f42c98eed3f048405432a944b8b66b3d1ab57118
+SHA256: cd5736d25e4b025ff540de60332fe1f530dedb47b6aad1689ce906200f569474
+
+Package: com.main.kiyu4776.ui.statusbar
+Name: UIStatusBar
+Description: 時間のところに色々追加する
+Maintainer: kiyu4776
+Author: kiyu4776
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3), ws.hbang.common (>= 2.0)
+Icon: https://cydia-repo-kiyu4776.leapcell.app/resource/asset/tweak/UIStetusBar_icon.png
+Architecture: iphoneos-arm64
+Version: 0.0.9
+Filename: ./debs/UIStatusBarV2/com.main.kiyu4776.ui.statusbar_0.0.9_arm64.deb
+Size: 44168
+MD5sum: a32498db900f2519a9b98240a9b291a3
+SHA1: 592844159624d5ccd0e52786d174c7277af06f7e
+SHA256: 6d060c6b7cfdf2537b50593198484b7ad72bbf41becd9cc840ac6e40d90a413d
+
+Package: com.main.kiyu4776.ui.statusbar
+Name: UIStatusBar
+Description: 時間のところに色々追加する
+Maintainer: kiyu4776
+Author: kiyu4776
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3), ws.hbang.common (>= 2.0)
+Icon: https://cydia-repo-kiyu4776.leapcell.app/resource/asset/tweak/UIStetusBar_icon.png
+Architecture: iphoneos-arm64
+Version: 0.2.1
+Filename: ./debs/UIStatusBarV2/0.2.1_arm64.deb
+Size: 44502
+MD5sum: b2061bf0e3637c5d5b3cbadffe4180a7
+SHA1: 76d51b4470471762519159c69301beb5301aedfb
+SHA256: 2a2a68bdc833ed10f5e8eedf35e2fb60d7d2147c0c8a28885baa31cb0d3fd27d

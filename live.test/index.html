@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* CSS*/
+    </style>
+</head>
+
+<body>
+
+    <h1>repo root pages</h1>
+    <input id="copy" type="text" value="" readonly>
+    <button onclick="copyToClipboard()">test</button>
+
+</body>
+<script>
+        function copyToClipboard() {
+            var copytext = document.getElementById("copy");
+        copytext.select();
+        document.execCommand("Copy")
+        alert("コピーできました！ : " + copytext.value);
+        }
+</script>
+
+</html>
