@@ -1,0 +1,12 @@
+Package: com.main.kiyu4776.console.log
+Name: consolelog
+Version: 0.2.0-1+debug
+Architecture: iphoneos-arm64
+Maintainer: kiyu4776
+Author: kiyu4776
+Section: Tweaks
+Filename: ./debs/com.main.kiyu4776.console.log_0.2.0-1+debug_iphoneos-arm64.deb
+Size: 15590
+MD5sum: 464220526a095fb0472bc718a7b941a2
+SHA1: fe5abc9c19d3ba7af89f075edf45ea5f7369cd8d
+SHA256: 6c916a09a598a7df7eda8d474707c812a31562a0499ec986a42e5709fa3fa263

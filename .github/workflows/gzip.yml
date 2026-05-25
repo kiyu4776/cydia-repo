@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: gzip -kf repo/Release repo/Packages live.test/Release live.test/Package
+      - run: gzip -kf repo/Release repo/Packages live.test/Release live.test/Packages
       - run: |
           git config user.name "github-action[gzip]"
           git config user.email ""
