@@ -1,4 +1,4 @@
-name: Compress Files
+name: gzip
 
 on:
   workflow_dispatch:
