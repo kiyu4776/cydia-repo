@@ -1,0 +1,32 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "tintColor": "#4FC3C7",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "kaku!"
+        },
+        {
+          "class": "DepictionMarkdownView", 
+          "markdown": "EdgeSw" 
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionImageView",
+          "URL": "https://raw.githubusercontent.com/kiyu4776/cydia-repo/main/resource/depictions/com.main.kiyu4776.edgesw/image.jpeg",
+          "width": 200,
+          "height": 508,
+          "cornerRadius": 12,
+          "alignment": 1
+        }
+      ]
+    }
+  ]
+}
