@@ -339,9 +339,6 @@ Architecture: iphoneos-arm64
 Version: 1.0.0
 Filename: ./debs/com.main.kiyu4776.simplelock_1.0.0_iphoneos-arm64.deb
 Size: 30604
-MD5sum: 0acbf238e466370ebdb32bd0468bf01e
-SHA1: 61e81f9bd51af30452a36bb30f9fda1235262d3a
-SHA256: 2a59fe8c63826fecbce6eefbeed92f20092fa599ce84eb9d053b7b
 
 Package: com.main.kiyu4776.libconsole.log
 Name: liblog
