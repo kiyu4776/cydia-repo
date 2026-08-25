@@ -337,6 +337,7 @@ Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3), ws.hbang.co
 Icon: https://raw.githubusercontent.com/kiyu4776/cydia-repo/main/resource/asset/tweak/simplelock.jpeg
 Architecture: iphoneos-arm64
 Version: 1.0.0
+Installed-Size: 384
 Filename: ./debs/com.main.kiyu4776.simplelock_1.0.0_iphoneos-arm64.deb
 Size: 30604
 MD5sum: 0acbf238e466370ebdb32bd0468bf01e
