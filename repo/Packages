@@ -273,6 +273,7 @@ SHA1: ffb4ba438a3caf4520f4e3a7eabd341e6baca07f
 SHA256: 6f64f5ebf56cce30f34cba128c0cf8b959ef878ac1830fa51704a5ce150ffc5d
 Description: https://github.com/mjun0812/RobotoMonoJP　のふぉんとを自動で入れるやつ
 Author: kiyu4776
+Section: Font
 Name: RobotoMonoJP
 
 Package: org.kostyshyn.dkflexloader
