@@ -373,7 +373,7 @@ Package: com.main.kiyu4776.ui.statusbar
  Architecture: iphoneos-arm64
  Version: 0.3.0
  Installed-Size: 208
-Filename: ./debs/com.main.kiyu4776.ui.statusbar_0.0.2_arm64.deb
+Filename: ./debs/UIStatusBarV2/com.main.kiyu4776.ui.statusbar_0.3.0_iphoneos-arm64.deb
 Size: 45474
 MD5sum: c27b05efeef6d0808634bc592de0bd4a
 SHA1: c7bb3a84d6c0bb36abda4d86477e282e0a4cae9d
