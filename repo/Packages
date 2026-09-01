@@ -345,23 +345,6 @@ MD5sum: 7ebdb69e0707e79da092463cbaff5b7a
 SHA1: f14cca25649f9f67f2d1f8892947aa92c3d5ba25
 SHA256: e118786ffe4e8230556f463ad0c5954c47432e5b18d719ea0902da154d7f6093
 
-
-Package: com.main.kiyu4776.backdrop.hide
-Version: 0.0.3
-Architecture: iphoneos-arm64
-Maintainer: kiyu4776
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.main.kiyu4776.backdrop.hide_0.0.3_arm64.deb
-Size: 3430
-MD5sum: 0ad01c0cff5eea16cb1a7fd8272ce14e
-SHA1: 91349e65dc1e3e8b470d1e00736e1c1efafe33e1efafe33e1
-SHA256: ab77e67173deaf44471820babba9ef6adc39af98eba2dc40fdd7148959fae52d
-Section: Tweaks
-Description: アプリ履歴の背景と開閉アニメーションの背景ブラーを消す
-Author: kiyu4776
-Name: BackdropHide
-
 Package: com.main.kiyu4776.ui.statusbar
  Name: UIStatusBar
  Description: 時間のところに色々追加する v2
