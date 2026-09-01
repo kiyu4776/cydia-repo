@@ -8,7 +8,7 @@ Filename: ./debs/com.brend0n.nopassafterrespringsafe_0.0.2-1_iphoneos-arm64.deb
 Size: 3224
 MD5sum: a7687c1eca53ae8e1b041c6c2593891a
 SHA1: 66a122068cbe5a094d7b7cd3601d21e632b66a32
-SHA256: 9e71e95cc30e44433707d1f3082114c710bcbaa50f9e2b1b6b13875f2eb4b9f4
+SHA256: 9e71e95cc30e44433707d1f3082114c710bcbaa50f9e2b1e6b13875f2eb4b9f4
 Section: Tweaks
 Description: Disables passcode after a respring.
 Author: Brend0n <brendonjkding@126.com>
@@ -352,7 +352,7 @@ Maintainer: kiyu4776
 Author: kiyu4776
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3), ws.hbang.common (>= 2.0)
-Icon:https://raw.githubusercontent.com/kiyu4776/cydia-repo/main/resource/asset/tweak/UIStetusBar_icon.png
+Icon: https://raw.githubusercontent.com/kiyu4776/cydia-repo/main/resource/asset/tweak/UIStetusBar_icon.png
 Architecture: iphoneos-arm64
 Version: 0.3.0
 Installed-Size: 208
