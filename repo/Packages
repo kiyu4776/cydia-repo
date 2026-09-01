@@ -80,22 +80,6 @@ Description: さまざ
 Author: kiyu4776
 Name: test hide background
 
-Package: com.main.kiyu4776.hidedock.mt
-Version: 0.3-1
-Architecture: iphoneos-arm64
-Maintainer: kiyu4776
-Installed-Size: 72
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/hidedock.mt.deb
-Size: 2626
-MD5sum: cdb1f7d56622d8a620fa3c2ebd3f735e
-SHA1: 5626aa43d67d4d5fb76e829e8da070eac1510c9f
-SHA256: 4c27bbd4522f74f9ba320fa537f63b85f8614472cb6472933a64f596d9e8aa13
-Section: Tweaks
-Description: Dockのマテリアル(背景)を非表示にします
-Author: kiyu4776
-Name: HideDockMT
-
 Package: com.main.kiyu4776.ip5.ota841
 Version: 0.0.1-1
 Architecture: iphoneos-arm
@@ -360,3 +344,39 @@ Size: 10082
 MD5sum: 7ebdb69e0707e79da092463cbaff5b7a
 SHA1: f14cca25649f9f67f2d1f8892947aa92c3d5ba25
 SHA256: e118786ffe4e8230556f463ad0c5954c47432e5b18d719ea0902da154d7f6093
+
+
+Package: com.main.kiyu4776.backdrop.hide
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: kiyu4776
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.main.kiyu4776.backdrop.hide_0.0.3_arm64.deb
+Size: 3430
+MD5sum: 0ad01c0cff5eea16cb1a7fd8272ce14e
+SHA1: 91349e65dc1e3e8b470d1e00736e1c1efafe33e1efafe33e1
+SHA256: ab77e67173deaf44471820babba9ef6adc39af98eba2dc40fdd7148959fae52d
+Section: Tweaks
+Description: アプリ履歴の背景と開閉アニメーションの背景ブラーを消す
+Author: kiyu4776
+Name: BackdropHide
+
+Package: com.main.kiyu4776.ui.statusbar
+ Name: UIStatusBar
+ Description: 時間のところに色々追加する v2
+ Maintainer: kiyu4776
+ Author: kiyu4776
+ Section: Tweaks
+ Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3), ws.hbang.common (>= 2.0)
+ Icon:https://raw.githubusercontent.com/kiyu4776/cydia-repo/main/resource/asset/tweak/UIStetusBar_icon.png
+ Architecture: iphoneos-arm64
+ Version: 0.3.0
+ Installed-Size: 208
+Filename: ./debs/com.main.kiyu4776.ui.statusbar_0.0.2_arm64.deb
+Size: 45474
+MD5sum: c27b05efeef6d0808634bc592de0bd4a
+SHA1: c7bb3a84d6c0bb36abda4d86477e282e0a4cae9d
+SHA256: 5d069f18d4b8aef328a0d7ce4628149f53fa4d8fe13b053f6e3331b2455c98f0
+
+
