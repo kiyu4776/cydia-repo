@@ -346,16 +346,16 @@ SHA1: f14cca25649f9f67f2d1f8892947aa92c3d5ba25
 SHA256: e118786ffe4e8230556f463ad0c5954c47432e5b18d719ea0902da154d7f6093
 
 Package: com.main.kiyu4776.ui.statusbar
- Name: UIStatusBar
- Description: 時間のところに色々追加する v2
- Maintainer: kiyu4776
- Author: kiyu4776
- Section: Tweaks
- Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3), ws.hbang.common (>= 2.0)
- Icon:https://raw.githubusercontent.com/kiyu4776/cydia-repo/main/resource/asset/tweak/UIStetusBar_icon.png
- Architecture: iphoneos-arm64
- Version: 0.3.0
- Installed-Size: 208
+Name: UIStatusBar
+Description: 時間のところに色々追加する v2
+Maintainer: kiyu4776
+Author: kiyu4776
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3), ws.hbang.common (>= 2.0)
+Icon:https://raw.githubusercontent.com/kiyu4776/cydia-repo/main/resource/asset/tweak/UIStetusBar_icon.png
+Architecture: iphoneos-arm64
+Version: 0.3.0
+Installed-Size: 208
 Filename: ./debs/UIStatusBarV2/com.main.kiyu4776.ui.statusbar_0.3.0_iphoneos-arm64.deb
 Size: 45474
 MD5sum: c27b05efeef6d0808634bc592de0bd4a
