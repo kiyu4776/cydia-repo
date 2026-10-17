@@ -1,0 +1,32 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "tintColor": "#4FC3C7",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "BackdropHide"
+        },
+        {
+          "class": "DepictionMarkdownView", 
+          "markdown": "アプリ履歴の背景と開閉アニメーションの背景ブラーを消す" 
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionImageView",
+          "URL": "https://raw.githubusercontent.com/kiyu4776/cydia-repo/main/resource/depictions/com.main.kiyu4776.backdrop.hide/image.jpeg",
+          "width": 200,
+          "height": 508,
+          "cornerRadius": 12,
+          "alignment": 1
+        }
+      ]
+    }
+  ]
+}

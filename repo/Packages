@@ -8,7 +8,7 @@ Filename: ./debs/com.brend0n.nopassafterrespringsafe_0.0.2-1_iphoneos-arm64.deb
 Size: 3224
 MD5sum: a7687c1eca53ae8e1b041c6c2593891a
 SHA1: 66a122068cbe5a094d7b7cd3601d21e632b66a32
-SHA256: 9e71e95cc30e44433707d1f3082114c710bcbaa50f9e2b1e6b13875f2eb4b9f4
+SHA256: 9e71e95cc30e44433707d1f3082114c710bcbaa50f9e2b1b6b13875f2eb4b9f4
 Section: Tweaks
 Description: Disables passcode after a respring.
 Author: Brend0n <brendonjkding@126.com>
@@ -23,14 +23,33 @@ Maintainer: kiyu4776
 Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.main.kiyu4776.backdrop.hide_0.0.2_arm64.deb
-Size: 2598
-MD5sum: cea0e0a5d9290dd94271f912cb2c78b0
-SHA1: 51462b78055037c44edde2b976c4a0687953e7db
-SHA256: 9cfe9d03d8c0c525efb31f2d19f1c4b593663ae2544a5b46237ff82a448a4685
+Size: 2792
+MD5sum: 9cf2734e17e3ea7dae07628510e6d81c
+SHA1: 8da63f7968f86196ca80f3d7b4aa53a26d844bbd
+SHA256: 762ba31f1becf4508fef06b4503033a74c7d7a983cd2978843954eb0e68d99c7
 Section: Tweaks
 Description: アプリ履歴の背景と開閉アニメーションの背景ブラーを消す
 Author: kiyu4776
 Name: BackdropHide
+Sileodepiction: https://raw.githubusercontent.com/kiyu4776/cydia-repo/main/resource/depictions/com.main.kiyu4776.backdrop.hide/SileoDepiction.json
+
+Package: com.main.kiyu4776.edgesw
+Version: 0.0.2-beta
+Architecture: iphoneos-arm64
+Maintainer: kiyu4776
+Installed-Size: 1136
+Depends: mobilesubstrate,preferenceloader, ws.hbang.common,com.spark.libsparkapplist
+Filename: ./debs/Beta/com.main.kiyu4776.edgesw_0.0.2-beta_iphoneos-arm64.deb
+Size: 721484
+MD5sum: 3a3623105b1b5a7df9c503a54beb2a67
+SHA1: 0b643f4989ab307c62bea227864e0cb2d4ea05a0
+SHA256: dc9f097a91ac89c74b1d35115c9e70ba511f36de0095e56f1151d1026f84462a
+Section: Beta
+Description: EdgeSw
+Author: kiyu4776
+Icon: https://raw.githubusercontent.com/kiyu4776/cydia-repo/main/resource/asset/tweak/kaku.jpeg
+Name: kaku!
+Sileodepiction: https://raw.githubusercontent.com/kiyu4776/cydia-repo/main/resource/depictions/com.main.kiyu4776.edgesw/SileoDepiction.json
 
 Package: com.main.kiyu4776.hide.homebar
 Version: 0.0.1-1
@@ -95,6 +114,22 @@ Description: iPhone5のバージョンを偽装して8.4.1のOTAアップデー�
 Author: kiyu4776
 Name: iP5OTA8.4.1
 
+Package: com.main.kiyu4776.libconsole.log
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: kiyu4776
+Installed-Size: 176
+Filename: ./debs/com.main.kiyu4776.libconsole.log_0.0.1_iphoneos-arm64.deb
+Size: 10082
+MD5sum: 7ebdb69e0707e79da092463cbaff5b7a
+SHA1: f14cca25649f9f67f2d1f8892947aa92c3d5ba25
+SHA256: e118786ffe4e8230556f463ad0c5954c47432e5b18d719ea0902da154d7f6093
+Section: System
+Description: An awesome framework of some sort!!
+Tag: role::developer
+Author: kiyu4776
+Name: liblog
+
 Package: com.main.kiyu4776.passcode.backgroundhide
 Version: 0.0.2
 Architecture: iphoneos-arm64
@@ -143,6 +178,24 @@ Description: クソみたいなホーム画面の検索を非表示にする
 Author: kiyu4776
 Name: ホーム画面の検索消す
 
+Package: com.main.kiyu4776.simplelock
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: kiyu4776
+Installed-Size: 384
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3), ws.hbang.common
+Filename: ./debs/com.main.kiyu4776.simplelock_1.0.0_iphoneos-arm64.deb
+Size: 30604
+MD5sum: 0acbf238e466370ebdb32bd0468bf01e
+SHA1: 61e81f9bd51af30452a36bb30f9fda1235262d3a
+SHA256: 2a59fe8c63826fecbce6eefbeed92f20092fa599ce84eb9d053b7b9ec0b5430f
+Section: Tweaks
+Description: simplelock
+Author: kiyu4776
+Icon: https://raw.githubusercontent.com/kiyu4776/cydia-repo/main/resource/asset/tweak/simplelock.jpeg
+Name: simplelock
+Sileodepiction: https://raw.githubusercontent.com/kiyu4776/cydia-repo/main/resource/depictions/com.main.kiyu4776.simplelock/SileoDepiction.json
+
 Package: com.main.kiyu4776.statusbar
 Version: 0.0.4-3
 Architecture: iphoneos-arm64
@@ -150,6 +203,22 @@ Maintainer: @kiyu4776
 Installed-Size: 152
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.main.kiyu4776.statusbar_0.0.4_arm64.deb
+Size: 5326
+MD5sum: 2e1e57e5b15ce94691d696f45567a5e9
+SHA1: 8e7fc039d48a12dfe90687fec57c29d90d9b7b3d
+SHA256: 300a32af4401f1425592bedcd3003e9bd1b87c634561416fe68058ae30547422
+Section: Tweaks
+Description: ステータスバーをおちんちんに置き換えます
+Author: @kiyu4776
+Name: ステータスバーおちんちん
+
+Package: com.main.kiyu4776.statusbar
+Version: 0.0.4-3
+Architecture: iphoneos-arm64
+Maintainer: @kiyu4776
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.main.kiyu4776.statusbar_0.0.4-3_iphoneos-arm64.deb
 Size: 5326
 MD5sum: 2e1e57e5b15ce94691d696f45567a5e9
 SHA1: 8e7fc039d48a12dfe90687fec57c29d90d9b7b3d
@@ -187,6 +256,23 @@ Size: 224644
 MD5sum: 07d48e5cc2af7bec452370825ac7db47
 SHA1: 7e5de0d33610bc27361c560a34991d59552b3bca
 SHA256: 77f3e26e118173a3d95a26cf8d8e733f4ed1fecf9a26b0f2bfef11b63bb7fd2a
+Section: Tweaks
+Description: 時間のところに色々追加する
+Author: kiyu4776
+Icon: https://cydia-repo-kiyu4776.leapcell.app/resource/asset/tweak/UIStetusBar_icon.png
+Name: UIStetusBar
+
+Package: com.main.kiyu4776.ui.statusbar
+Version: 0.0.6
+Architecture: iphoneos-arm64
+Maintainer: kiyu4776
+Installed-Size: 372
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3), ws.hbang.common (>= 2.0)
+Filename: ./debs/com.main.kiyu4776.ui.statusbar_0.0.6_iphoneos-arm64.deb
+Size: 223784
+MD5sum: 8d2715db1ec12fef89e27723a407fdc6
+SHA1: 84bfdf7a2d293713690cef233cce3e2debe2a18a
+SHA256: fb2695d7b0812cae41cd5e0d6fd16c02d36951324a98eebaee7a69f9b15db77e
 Section: Tweaks
 Description: 時間のところに色々追加する
 Author: kiyu4776
@@ -244,6 +330,40 @@ Author: kiyu4776
 Icon: https://cydia-repo-kiyu4776.leapcell.app/resource/asset/tweak/UIStetusBar_icon.png
 Name: UIStatusBar
 
+Package: com.main.kiyu4776.ui.statusbar
+Version: 0.3.0
+Architecture: iphoneos-arm64
+Maintainer: kiyu4776
+Installed-Size: 208
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3), ws.hbang.common (>= 2.0)
+Filename: ./debs/UIStatusBarV2/com.main.kiyu4776.ui.statusbar_0.3.0_iphoneos-arm64.deb
+Size: 45474
+MD5sum: c27b05efeef6d0808634bc592de0bd4a
+SHA1: c7bb3a84d6c0bb36abda4d86477e282e0a4cae9d
+SHA256: 5d069f18d4b8aef328a0d7ce4628149f53fa4d8fe13b053f6e3331b2455c98f0
+Section: Tweaks
+Description: 時間のところに色々追加する v2
+Author: kiyu4776
+Icon: https://raw.githubusercontent.com/kiyu4776/cydia-repo/main/resource/asset/tweak/UIStetusBar_icon.png
+Name: UIStatusBar
+
+Package: com.main.kiyu4776.ui.statusbar
+Version: 0.3.1
+Architecture: iphoneos-arm64
+Maintainer: kiyu4776
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3), ws.hbang.common (>= 2.0)
+Filename: ./debs/com.main.kiyu4776.ui.statusbar_0.3.1_iphoneos-arm64.deb
+Size: 45454
+MD5sum: cd67475bca76453110e0dccb053e8432
+SHA1: 7aabbae870d43fdb3c2391fa8a302069bb88f259
+SHA256: f2c3573e4eb06b6e03acd2cd0a92adf51da3fe6b50a1088423f818ad6eee6318
+Section: Tweaks
+Description: 時間のところに色々追加する v2
+Author: kiyu4776
+Icon: https://raw.githubusercontent.com/kiyu4776/cydia-repo/main/resource/asset/tweak/UIStetusBar_icon.png
+Name: UIStatusBar
+
 Package: com.main.robotomono.font
 Version: 0.0.1-1
 Architecture: iphoneos-arm64
@@ -251,13 +371,13 @@ Maintainer: kiyu4776
 Installed-Size: 4392
 Depends: com.rpgfarm.a-font
 Filename: ./debs/Font/com.main.robotomono.font_0.0.1-1_arm64.deb
-Size: 2531438
-MD5sum: f8d9c69d45ed068061e18b53627c8f00
-SHA1: ffb4ba438a3caf4520f4e3a7eabd341e6baca07f
-SHA256: 6f64f5ebf56cce30f34cba128c0cf8b959ef878ac1830fa51704a5ce150ffc5d
+Size: 2531550
+MD5sum: a8541b3e5a8f58df28849409b2347f51
+SHA1: b34268505df0a1be9899d155555a41b962362ff3
+SHA256: 91ff87e001c9a79d3471f50889396621d2c5f6dc9c46ed33c66aa23169148429
+Section: Font
 Description: https://github.com/mjun0812/RobotoMonoJP　のふぉんとを自動で入れるやつ
 Author: kiyu4776
-Section: Font
 Name: RobotoMonoJP
 
 Package: org.kostyshyn.dkflexloader
@@ -291,75 +411,4 @@ Section: Tweaks
 Description: https://github.com/danylokos/DKFLEXLoader の 32bit版
 Author: Danylo Kostyshyn
 Name: DKFLEXLoader
-
-Package: com.main.kiyu4776.edgesw
-Version: 0.0.2-beta
-Architecture: iphoneos-arm64
-Maintainer: kiyu4776
-Installed-Size: 1136
-Depends: mobilesubstrate,preferenceloader, ws.hbang.common,com.spark.libsparkapplist
-Filename: ./debs/Beta/com.main.kiyu4776.edgesw_0.0.2-beta_iphoneos-arm64.deb
-Size: 721342
-MD5sum: bd21069124eec9127ce88fd02f4387e0
-SHA1: eca7ee9f6fe21ce37223e2a9d3d2b604c5eb3281
-SHA256: 3a633829ca23e45bc45714e4ee1eb2a0333109c3bd38a3240f6d17ed829d6612
-Section: Beta
-Description: EdgeSw
-Author: kiyu4776
-Icon: https://raw.githubusercontent.com/kiyu4776/cydia-repo/main/resource/asset/tweak/kaku.jpeg
-Name: kaku!
-SileoDepiction: https://raw.githubusercontent.com/kiyu4776/cydia-repo/main/resource/depictions/com.main.kiyu4776.edgesw/SileoDepiction.json
-
-
-
-Package: com.main.kiyu4776.simplelock
-Name: simplelock
-Description: simplelock
-Maintainer: kiyu4776
-Author: kiyu4776
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3), ws.hbang.common
-Icon: https://raw.githubusercontent.com/kiyu4776/cydia-repo/main/resource/asset/tweak/simplelock.jpeg
-Architecture: iphoneos-arm64
-Version: 1.0.0
-Installed-Size: 384
-Filename: ./debs/com.main.kiyu4776.simplelock_1.0.0_iphoneos-arm64.deb
-Size: 30604
-MD5sum: 0acbf238e466370ebdb32bd0468bf01e
-SHA1: 61e81f9bd51af30452a36bb30f9fda1235262d3a
-SHA256: 2a59fe8c63826fecbce6eefbeed92f20092fa599ce84eb9d053b7b9ec0b5430f
-
-Package: com.main.kiyu4776.libconsole.log
-Name: liblog
-Description: An awesome framework of some sort!!
-Maintainer: kiyu4776
-Author: kiyu4776
-Section: System
-Tag: role::developer
-Architecture: iphoneos-arm64
-Version: 0.0.1
-Installed-Size: 176
-Filename: ./debs/com.main.kiyu4776.libconsole.log_0.0.1_iphoneos-arm64.deb
-Size: 10082
-MD5sum: 7ebdb69e0707e79da092463cbaff5b7a
-SHA1: f14cca25649f9f67f2d1f8892947aa92c3d5ba25
-SHA256: e118786ffe4e8230556f463ad0c5954c47432e5b18d719ea0902da154d7f6093
-
-Package: com.main.kiyu4776.ui.statusbar
-Name: UIStatusBar
-Description: 時間のところに色々追加する v2
-Maintainer: kiyu4776
-Author: kiyu4776
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3), ws.hbang.common (>= 2.0)
-Icon: https://raw.githubusercontent.com/kiyu4776/cydia-repo/main/resource/asset/tweak/UIStetusBar_icon.png
-Architecture: iphoneos-arm64
-Version: 0.3.0
-Installed-Size: 208
-Filename: ./debs/UIStatusBarV2/com.main.kiyu4776.ui.statusbar_0.3.0_iphoneos-arm64.deb
-Size: 45474
-MD5sum: c27b05efeef6d0808634bc592de0bd4a
-SHA1: c7bb3a84d6c0bb36abda4d86477e282e0a4cae9d
-SHA256: 5d069f18d4b8aef328a0d7ce4628149f53fa4d8fe13b053f6e3331b2455c98f0
-
 
